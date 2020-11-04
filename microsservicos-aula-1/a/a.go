@@ -2,12 +2,13 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/hashicorp/go-retryablehttp"
 	"html/template"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
+
+	"github.com/hashicorp/go-retryablehttp"
 )
 
 type Result struct {
