@@ -5,3 +5,10 @@ services:
     image: leodalcegio/microsservico-avancadev-b
     ports:
       - 9091:9091
+
+  nginx:
+    image: nginx
+    volumes:
+      - ./html:/usr/share/nginx/html/
+    ports:
+      - 8080:80
