@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  microservicob:
+    image: leodalcegio/microsservico-avancadev-b
+    ports:
+      - 9091:9091
